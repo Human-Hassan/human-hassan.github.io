@@ -1,1 +1,1 @@
-# Personal websire (al-folio)
+# Personal website (al-folio)
