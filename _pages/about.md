@@ -1,8 +1,8 @@
 ---
 layout: about
 title: about
-permalink: jjj /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+permalink: /
+subtitle: 
 
 profile:
   align: right
