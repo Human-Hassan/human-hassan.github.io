@@ -1,12 +1,13 @@
 ---
 layout: about
 title: about
+first_name: Hassan
 permalink: /
 subtitle: 
 
 profile:
   align: right
-  image: hassan_pic1.jpg
+  image: hassan_pic2.jpg
   address: 
 
 news: true  # includes a list of news items
