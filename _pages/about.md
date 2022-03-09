@@ -1,13 +1,12 @@
 ---
 layout: about
-title: about
-first_name: Hassan
+title: Hassan Almubarak
 permalink: /
 subtitle: 
 
 profile:
   align: right
-  image: hassan_pic2.jpg
+  image: hassan_pic3.jpg
   address: 
 
 news: true  # includes a list of news items
