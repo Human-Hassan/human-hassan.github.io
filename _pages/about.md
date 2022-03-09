@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Hassan Almubarak
+title: 
 permalink: /
 subtitle: 
 
