@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: hassan_pic1.jpg
   address: 
 
 news: true  # includes a list of news items
