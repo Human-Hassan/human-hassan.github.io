@@ -19,7 +19,9 @@ title={Safety in Augmented Importance Sampling: Performance Bounds for Robust-MP
   pages={1328--1333},
   doi={10.1109/LCSYS.2021.3093255},
   link={https://ieeexplore.ieee.org/document/9467052},
-  arxiv={2102.10253}
+  arxiv={2102.10253},
+      abstract={In many safety-critical control systems, possibly opposing safety restrictions and control performance objectives arise. To confront such a conflict, this letter proposes a novel methodology that embeds safety into stability of control systems. The development enforces safety by means of barrier functions used in optimization through the construction of barrier states (BaS) which are embedded in the control system's model. As a result, as long as the equilibrium point of interest of the closed loop system is asymptotically stable, the generated trajectories are guaranteed to be safe. Consequently, a conflict between control objectives and safety constraints is substantially avoided. To show the efficacy of the proposed technique, we employ barrier states with the simple pole placement method to design safe linear controls. Nonlinear optimal control is subsequently employed to fulfill safety, stability and performance objectives by solving the associated Hamilton-Jacobi-Bellman (HJB) which minimizes a cost functional that can involve the BaS. Following this further, we exploit optimal control with barrier states on an unstable, constrained second dimensional pendulum on a cart model that is desired to avoid low velocities regions where the system may exhibit some controllability loss and on two mobile robots to safely arrive to opposite targets with an obstacle on the way.},
+
   }
 
 @article{almubarak2022safety,
@@ -28,7 +30,8 @@ author={Almubarak, Hassan and Stachowicz, Kyle and Sadegh, Nader and Theodorou, 
   journal={IEEE Robotics and Automation Letters}, 
   title={Safety Embedded Differential Dynamic Programming using Discrete Barrier States}, 
   year={2022},
-  doi={10.1109/LRA.2022.3143301}}
+  doi={10.1109/LRA.2022.3143301},
+abstract={Certified safe control is a growing challenge in robotics, especially when performance and safety objectives must be concurrently achieved. In this work, we extend the barrier state (BaS) concept, recently proposed for safe stabilization of continuous time systems, to safety embedded trajectory optimization for discrete time systems using discrete barrier states (DBaS). The constructed DBaS is embedded into the discrete model of the safety-critical system integrating safety objectives into the system's dynamics and performance objectives. Thereby, the control policy is directly supplied by safety-critical information through the b rrier state. This allows us to employ the DBaS with differential dynamic programming (DDP) to plan and execute safe optimal trajectories. The proposed algorithm is leveraged on various safety-critical control and planning problems including a differential wheeled robot safe navigation in randomized and complex environments and on a quadrotor to safely perform reaching and tracking tasks. The DBaS-based DDP (DBaS-DDP) is shown to consistently outperform penalty methods commonly used to approximate constrained DDP problems as well as CBF based safety filters.}
 }
 
 @article{almubarak2021barrier,
@@ -37,7 +40,8 @@ abbr={ACC 2022},
   author={Almubarak, Hassan and Theodorou, Evangelos A and Sadegh, Nader},
   journal={arXiv preprint arXiv:2111.02979},
   year={2021},
-  arxiv={2111.02979}
+  arxiv={2111.02979},
+abstract{Considering uncertainties and disturbances is an important, yet challenging, step in successful decision making. The problem becomes more challenging in safety-constrained environments. In this paper, we propose a robust and safe trajectory optimization algorithm through solving a constrained min-max optimal control problem. The proposed method leverages a game theoretic differential dynamic programming approach with barrier states to handle parametric and non-parametric uncertainties in safety-critical control systems. Barrier states are embedded into the differential game's dynamics and cost to portray the constrained environment in a higher dimensional state space and certify the safety of the optimized trajectory. Moreover, we propose to perform line-search in a Stackleberg (leader-follower) game fashion which is shown to increase robustness of our controller. The proposed algorithm is evaluated on a velocity-constrained inverted pendulum model that has a 50\% error in the model's parameters to show its efficacy in such a comprehensible system. The algorithm is subsequently implemented on a quadrotor in a windy environment in which sinusoidal wind turbulences applied in all directions.}
 }
 
 @inproceedings{AlmubarakSadeghandTaylor2019,
@@ -46,7 +50,8 @@ abbr={ACC 2022},
   author={Almubarak, Hassan and Sadegh, Nader and Taylor, David G.},
   booktitle={American Control Conference, 2019. Proceedings of the 2019},
   year={2019},
-  organization={IEEE}
+  organization={IEEE},
+abstract={This paper develops a Nonlinear Quadratic cost Regulator (NLQR) through an efficient Taylor series expansion of the Hamilton-Jacobi-Bellman (HJB) equation. Utilizing a set of minimal polynomial basis functions that includes all possible combinations of the states, a nonlinear matrix equation similar to the Riccati equation is constructed from the HJB equation. Solving this nonlinear matrix equation term by term renders the associated value function (i.e, optimal cost-to-go) and the optimal controller with a prescribed truncation order. A recursive closed form procedure to find the coefficients of the series is presented. The computational complexity of this approach is shown to have only a polynomial growth rate with respect to the series order. The developed algorithm, which may be implemented offline, is applied to two nonlinear systems with different types of nonlinearities including actuator saturation.}
 }
 
 @article{SadeghAlmubarak_recursive,
@@ -54,7 +59,8 @@ abbr={arXiv},
   title={Recursive Analytic Solution of Nonlinear Optimal Regulators},
   author={Sadegh, Nader and Almubarak, Hassan},
   journal={arXiv preprint arXiv:2006.15685},
-  year={2020}
+  year={2020},
+abstract={The paper develops an optimal regulator for a general class of multi-input affine nonlinear systems minimizing a nonlinear cost functional with infinite horizon. The cost functional is general enough to enforce saturation limits on the control input if desired. An efficient algorithm utilizing tensor algebra is employed to compute the tensor coefficients of the Taylor series expansion of the value function (i.e., optimal cost-to-go). The tensor coefficients are found by solving a set of nonlinear matrix equations recursively generalizing the well-known linear quadratic solution. The resulting solution generates the optimal controller as a nonlinear function of the state vector up to a prescribed truncation order. Moreover, a complete convergence of the computed solution together with an estimation of its applicability domain are provided to further guide the user. The algorithm's computational complexity is shown to grow only polynomially with respect to the series order. Finally, several nonlinear examples including some with input saturation are presented to demonstrate the efficacy of the algorithm to generate high order Taylor series solution of the optimal controller.}
 }
 
 @inproceedings{almubarak2021hjbbased,
@@ -65,5 +71,6 @@ abbr={CDC 2021},
   pages={},
   year={2021},
   arxiv={2106.15560},
-  organization={IEEE}
+  organization={IEEE},
+abstract={This work proposes an optimal safe controller minimizing an infinite horizon cost functional subject to control barrier functions (CBFs) safety conditions. The constrained optimal control problem is reformulated as a minimization problem of the Hamilton-Jacobi-Bellman (HJB) equation subjected to the safety constraints. By solving the optimization problem, we are able to construct a closed form solution that satisfies optimality and safety conditions. The proposed solution is shown to be continuous and thus it renders the safe set forward invariant while minimizing the given cost. Hence, optimal stabilizability and safety objectives are achieved simultaneously. To synthesize the optimal safe controller, we present a modified Galerkin successive approximation approach which guarantees an optimal safe solution given a stabilizing safe initialization. The proposed algorithm is implemented on a constrained nonlinear system to show its efficacy.}
 }

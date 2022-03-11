@@ -25,12 +25,12 @@ I believe that "The alms of knowledge is to educate" and thus besides my academi
 
 Im my free time, you may find me playing soccer (football). I also enjoy cooking, reading and hiking.
 
-<strong>Follow: </strong>
+      </strong>
       <a href="https://scholar.google.com/citations?user=QGsFCTsAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>
       <strong> | </strong>
       <a href="https://www.linkedin.com/in/hassan-almubarak-8b87a867" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
       <strong> | </strong>
       <a href="https://github.com/human-hassan" target="_blank" title="GitHub"><i class="fab fa-github"></i> human-hassan</a>
       <strong> | </strong>
-      # <a href="https://www.researchgate.net/profile/Hassan-Almubarak" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i> ResearchGate</a>
+      <a href="https://www.researchgate.net/profile/Hassan-Almubarak" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i> ResearchGate</a>
 <br><br>
