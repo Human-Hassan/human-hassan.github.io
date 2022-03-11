@@ -26,7 +26,6 @@ I believe that "The alms of knowledge is to educate" and thus besides my academi
 Im my free time, you may find me playing soccer (football). I also enjoy cooking, reading and hiking.
 
 <br>
-      </strong>
       <a href="https://scholar.google.com/citations?user=QGsFCTsAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>
       <strong> | </strong>
       <a href="https://www.linkedin.com/in/hassan-almubarak-8b87a867" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
