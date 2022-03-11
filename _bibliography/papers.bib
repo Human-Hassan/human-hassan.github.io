@@ -38,16 +38,6 @@ author={Almubarak, Hassan and Stachowicz, Kyle and Sadegh, Nader and Theodorou, 
 abstract={Certified safe control is a growing challenge in robotics, especially when performance and safety objectives must be concurrently achieved. In this work, we extend the barrier state (BaS) concept, recently proposed for safe stabilization of continuous time systems, to safety embedded trajectory optimization for discrete time systems using discrete barrier states (DBaS). The constructed DBaS is embedded into the discrete model of the safety-critical system integrating safety objectives into the system's dynamics and performance objectives. Thereby, the control policy is directly supplied by safety-critical information through the b rrier state. This allows us to employ the DBaS with differential dynamic programming (DDP) to plan and execute safe optimal trajectories. The proposed algorithm is leveraged on various safety-critical control and planning problems including a differential wheeled robot safe navigation in randomized and complex environments and on a quadrotor to safely perform reaching and tracking tasks. The DBaS-based DDP (DBaS-DDP) is shown to consistently outperform penalty methods commonly used to approximate constrained DDP problems as well as CBF based safety filters.}
 }
 
-@inproceedings{almubarak2021barrier,
-  abbr={ACC 2022},
-  title={Barrier States Embedded Iterative Dynamic Game for Robust and Safe Trajectory Optimization},
-  author={Almubarak, Hassan and Theodorou, Evangelos A and Sadegh, Nader},
-  booktitle={2022 American Control Conference (ACC)},
-  year={2022},
-  organization={IEEE},
-abstract{Considering uncertainties and disturbances is an important, yet challenging, step in successful decision making. The problem becomes more challenging in safety-constrained environments. In this paper, we propose a robust and safe trajectory optimization algorithm through solving a constrained min-max optimal control problem. The proposed method leverages a game theoretic differential dynamic programming approach with barrier states to handle parametric and non-parametric uncertainties in safety-critical control systems. Barrier states are embedded into the differential game's dynamics and cost to portray the constrained environment in a higher dimensional state space and certify the safety of the optimized trajectory. Moreover, we propose to perform line-search in a Stackleberg (leader-follower) game fashion which is shown to increase robustness of our controller. The proposed algorithm is evaluated on a velocity-constrained inverted pendulum model with high parametric uncertaintity to show its efficacy in such a comprehensible system. The algorithm is subsequently implemented on a quadrotor in a windy environment in which sinusoidal wind turbulences applied in all directions.}
-}
-
 @inproceedings{AlmubarakSadeghandTaylor2019,
   abbr={ACC 2019},
  title={Infinite horizon nonlinear quadratic cost regulator},
