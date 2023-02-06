@@ -4,5 +4,5 @@ date: 2022-01-31 07:59:00-0400
 inline: true
 ---
 
-Accepted to ICRA 2022! 3 :sparkles: :smile: U+1F913
+Accepted to ICRA 2022! 3 :sparkles: :smile: :sparkler:
 
