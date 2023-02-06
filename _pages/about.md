@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hello! I am Hassan, I develop control and optimization tools and algorithms for autonmous systems.
 
-I'm a Ph.D. student in the [ACDS Lab](https://sites.gatech.edu/acds/) at Georgia Tech advised by Dr. [Evangelos Theodorou](https://scholar.google.com/citations?hl=en&user=dG9MV7oAAAAJ) and Dr. [Nader Sadegh](https://scholar.google.com/citations?user=TS4freMAAAAJ&hl=en). 
+I'm a Ph.D. student in the [ACDS Lab](https://sites.gatech.edu/acds/) at Georgia Tech :honeybee: advised by Dr. [Evangelos Theodorou](https://scholar.google.com/citations?hl=en&user=dG9MV7oAAAAJ) and Dr. [Nader Sadegh](https://scholar.google.com/citations?user=TS4freMAAAAJ&hl=en). 
 
 My research confronts the trade-off between safety restrictions and performance objectives (stability, optimality, robustness, etc.) of control dynamical systems. My research interests lie in the intersections of control theory, dynamic optimization and machine learning to design the appropriate mathematical tools used to develop provably safe and robust optimal control and planning for safety-critical systems, especially those in uncertain (or stochastic!) environments . 
 
