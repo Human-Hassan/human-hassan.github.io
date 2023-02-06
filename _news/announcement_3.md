@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Accepted to ICRA 2022! 3 :sparkles: :smile:
+Accepted to ICRA 2022! 3 :sparkles: :smile: U+1F913
+
