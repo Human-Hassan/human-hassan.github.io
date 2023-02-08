@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Accepted to ACC 2022. This is 1.
+Our <strong>Barrier States Driven Safety Importance Sampling for Model Predictive Path Integral Control</strong></p> was submited to RSS 2023!

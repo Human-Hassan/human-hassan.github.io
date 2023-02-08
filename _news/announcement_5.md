@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-08-15 07:59:00-0400
 inline: true
 ---
 
-Accepted to ACC 2022. 5
+Excited to teach AE 4803-Robotics and Autonomy in the Daniel Guggenheim School of Aerospace Engineering at Georgia Tech this Fall :smile:!

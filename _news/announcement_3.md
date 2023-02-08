@@ -1,9 +1,8 @@
 ---
 layout: post
-date: 2022-01-31 07:59:00-0400
+date: 2023-01-25 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Accepted to ICRA 2022! 3 :sparkles: :smile: :sparkler:
-
+The first paper of our collaboration with Dr Naira Havokimian Lab (UIUC), [L1 Adaptive Control of Constrained Systems Using Barrier States](https://arc.aiaa.org/doi/pdf/10.2514/6.2023-1051), was presented in AIAA SCITECH.
