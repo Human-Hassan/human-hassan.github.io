@@ -1,22 +1,3 @@
-@article{wang2022samplingMPC,
-abbr={Under Review},
-  title={Sampling-Based Optimization for Multi-Agent Model Predictive Control},
-  author={Wang, Ziyi and Saravanos, Augustinos D and Almubarak, Hassan and So, Oswin and Theodorou, Evangelos A},
-  journal={arXiv preprint arXiv:2211.11878},
-  year={2022},
-abstract={We systematically review the Variational Optimization, Variational Inference and Stochastic Search perspectives on sampling-based dynamic optimization and discuss their connections to state-of-the-art optimizers and Stochastic Optimal Control (SOC) theory. A general convergence and sample complexity analysis on the three perspectives is provided through the unifying Stochastic Search perspective. We then extend these frameworks to their distributed versions for multi-agent control by combining them with consensus Alternating Direction Method of Multipliers (ADMM) to decouple the full problem into local neighborhood-level ones that can be solved in parallel. Model Predictive Control (MPC) algorithms are then developed based on these frameworks, leading to fully decentralized sampling-based dynamic optimizers. The capabilities of the proposed algorithms framework are demonstrated on multiple complex multi-agent tasks for vehicle and quadcopter systems in simulation. The results compare different distributed sampling-based optimizers and their centralized counterparts using unimodal Gaussian, mixture of Gaussians, and stein variational policies. The scalability of the proposed distributed algorithms is demonstrated on a 196-vehicle scenario where a direct application of centralized sampling-based methods is shown to be prohibitive.}
-}
-
-@article{almubarak2022GP-BaS,
-abbr={Under Review},
-  title={Gaussian Process Barrier States for Safe Trajectory Optimization and Control},
-  author={Almubarak, Hassan and Gandhi, Manan and Aoyama, Yuichiro and Sadegh, Nader and Theodorou, Evangelos A.},
-  journal={arXiv preprint arXiv:2212.00268},
-  year={2022},
-abstract={This paper proposes embedded Gaussian Process Barrier States (GP-BaS), a methodology to safely control unmodeled dynamics of nonlinear system using Bayesian learning. Gaussian Processes (GPs) are used to model the dynamics of the safety-critical system, which is subsequently used in the GP-BaS model. We derive the barrier state dynamics utilizing the GP posterior, which is used to construct a safety embedded Gaussian process dynamical model (GPDM). We show that the safety-critical system can be controlled to remain inside the safe region as long as we can design a controller that renders the BaS-GPDM's trajectories bounded (or asymptotically stable). The proposed approach overcomes various limitations in early attempts at combining GPs with barrier functions due to the abstention of restrictive assumptions such as linearity of the system with respect to control, relative degree of the constraints and number or nature of constraints. This work is implemented on various examples for trajectory optimization and control including optimal stabilization of unstable linear system and safe trajectory optimization of a Dubins vehicle navigating through an obstacle course and on a quadrotor in an obstacle avoidance task using GP differentiable dynamic programming (GP-DDP). The proposed framework is capable of maintaining safe optimization and control of unmodeled dynamics and is purely data driven.}
-}
-
-
 @inproceedings{Aoun2023L1-BaS,
   abbr={AIAA SCITECH},
 title={L1 Adaptive Control of Constrained Systems Using Barrier States},
@@ -26,6 +7,25 @@ title={L1 Adaptive Control of Constrained Systems Using Barrier States},
   organization={},
 }
 
+@article{wang2022samplingMPC,
+abbr={Under Review},
+  title={Sampling-Based Optimization for Multi-Agent Model Predictive Control},
+  author={Wang, Ziyi and Saravanos, Augustinos D and Almubarak, Hassan and So, Oswin and Theodorou, Evangelos A},
+  journal={arXiv preprint arXiv:2211.11878},
+  year={2022},
+arxiv={2211.11878},
+abstract={We systematically review the Variational Optimization, Variational Inference and Stochastic Search perspectives on sampling-based dynamic optimization and discuss their connections to state-of-the-art optimizers and Stochastic Optimal Control (SOC) theory. A general convergence and sample complexity analysis on the three perspectives is provided through the unifying Stochastic Search perspective. We then extend these frameworks to their distributed versions for multi-agent control by combining them with consensus Alternating Direction Method of Multipliers (ADMM) to decouple the full problem into local neighborhood-level ones that can be solved in parallel. Model Predictive Control (MPC) algorithms are then developed based on these frameworks, leading to fully decentralized sampling-based dynamic optimizers. The capabilities of the proposed algorithms framework are demonstrated on multiple complex multi-agent tasks for vehicle and quadcopter systems in simulation. The results compare different distributed sampling-based optimizers and their centralized counterparts using unimodal Gaussian, mixture of Gaussians, and stein variational policies. The scalability of the proposed distributed algorithms is demonstrated on a 196-vehicle scenario where a direct application of centralized sampling-based methods is shown to be prohibitive.}
+}
+
+@article{almubarak2022GP-BaS,
+abbr={Under Review},
+  title={Gaussian Process Barrier States for Safe Trajectory Optimization and Control},
+  author={Almubarak, Hassan and Gandhi, Manan and Aoyama, Yuichiro and Sadegh, Nader and Theodorou, Evangelos A.},
+  journal={arXiv preprint arXiv:2212.00268},
+  year={2022},
+arxiv={2212.00268},
+abstract={This paper proposes embedded Gaussian Process Barrier States (GP-BaS), a methodology to safely control unmodeled dynamics of nonlinear system using Bayesian learning. Gaussian Processes (GPs) are used to model the dynamics of the safety-critical system, which is subsequently used in the GP-BaS model. We derive the barrier state dynamics utilizing the GP posterior, which is used to construct a safety embedded Gaussian process dynamical model (GPDM). We show that the safety-critical system can be controlled to remain inside the safe region as long as we can design a controller that renders the BaS-GPDM's trajectories bounded (or asymptotically stable). The proposed approach overcomes various limitations in early attempts at combining GPs with barrier functions due to the abstention of restrictive assumptions such as linearity of the system with respect to control, relative degree of the constraints and number or nature of constraints. This work is implemented on various examples for trajectory optimization and control including optimal stabilization of unstable linear system and safe trajectory optimization of a Dubins vehicle navigating through an obstacle course and on a quadrotor in an obstacle avoidance task using GP differentiable dynamic programming (GP-DDP). The proposed framework is capable of maintaining safe optimization and control of unmodeled dynamics and is purely data driven.}
+}
 
 @article{gandhi2022safeMPPI,
   abbr={Under Review},
@@ -35,7 +35,7 @@ title={Safety in Augmented Importance Sampling: Performance Bounds for Robust-MP
   volume={},
   number={},
   pages={},
-  year={2022}
+  arxiv={2204.05963}
 }
 
 @article{almubarak2022safety,
@@ -46,6 +46,7 @@ author={Almubarak, Hassan and Stachowicz, Kyle and Sadegh, Nader and Theodorou, 
   title={Safety Embedded Differential Dynamic Programming using Discrete Barrier States}, 
   year={2022},
   doi={10.1109/LRA.2022.3143301},
+arxiv={2105.14608},
 abstract={Certified safe control is a growing challenge in robotics, especially when performance and safety objectives must be concurrently achieved. In this work, we extend the barrier state (BaS) concept, recently proposed for safe stabilization of continuous time systems, to safety embedded trajectory optimization for discrete time systems using discrete barrier states (DBaS). The constructed DBaS is embedded into the discrete model of the safety-critical system integrating safety objectives into the system's dynamics and performance objectives. Thereby, the control policy is directly supplied by safety-critical information through the b rrier state. This allows us to employ the DBaS with differential dynamic programming (DDP) to plan and execute safe optimal trajectories. The proposed algorithm is leveraged on various safety-critical control and planning problems including a differential wheeled robot safe navigation in randomized and complex environments and on a quadrotor to safely perform reaching and tracking tasks. The DBaS-based DDP (DBaS-DDP) is shown to consistently outperform penalty methods commonly used to approximate constrained DDP problems as well as CBF based safety filters.}
 }
 
@@ -56,6 +57,8 @@ abstract={Certified safe control is a growing challenge in robotics, especially 
   booktitle={Proceedings of the 2022 American Control Conference},
   year={2022},
   organization={IEEE},
+  arxiv={2111.02979},
+      abstract={Considering uncertainties and disturbances is an important, yet challenging, step in successful decision making. The problem becomes more challenging in safety-constrained environments. In this paper, we propose a robust and safe trajectory optimization algorithm through solving a constrained min-max optimal control problem. The proposed method leverages a game theoretic differential dynamic programming approach with barrier states to handle parametric and nonparametric uncertainties in safety-critical control systems. Barrier states are embedded into the differential game’s dynamics and cost to portray the constrained environment in a higher dimensional state space and certify the safety of the optimized trajectory. Moreover, to find a convergent optimal solution, we propose to perform line-search in a Stackleberg (leader-follower) game fashion instead of picking a constant learning rate. The proposed algorithm is evaluated on a velocity-constrained inverted pendulum model in a moderate and high parametric uncertainties to show its efficacy in such a comprehensible system. The algorithm is subsequently implemented on a quadrotor in a windy environment in which sinusoidal wind turbulences applied in all directions.},
 }
 
 @article{Almubarak2021SafetyEC,
@@ -89,6 +92,7 @@ abbr={arXiv},
   author={Sadegh, Nader and Almubarak, Hassan},
   journal={arXiv preprint arXiv:2006.15685},
   year={2020},
+  arxiv={2006.15685},
 abstract={The paper develops an optimal regulator for a general class of multi-input affine nonlinear systems minimizing a nonlinear cost functional with infinite horizon. The cost functional is general enough to enforce saturation limits on the control input if desired. An efficient algorithm utilizing tensor algebra is employed to compute the tensor coefficients of the Taylor series expansion of the value function (i.e., optimal cost-to-go). The tensor coefficients are found by solving a set of nonlinear matrix equations recursively generalizing the well-known linear quadratic solution. The resulting solution generates the optimal controller as a nonlinear function of the state vector up to a prescribed truncation order. Moreover, a complete convergence of the computed solution together with an estimation of its applicability domain are provided to further guide the user. The algorithm's computational complexity is shown to grow only polynomially with respect to the series order. Finally, several nonlinear examples including some with input saturation are presented to demonstrate the efficacy of the algorithm to generate high order Taylor series solution of the optimal controller.}
 }
 
