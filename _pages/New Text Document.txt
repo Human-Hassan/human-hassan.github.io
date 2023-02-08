@@ -1,4 +1,0 @@
-notes for me:
-
-to open the Projects page again, add
-permalink: /Projects/
