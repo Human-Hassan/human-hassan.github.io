@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The first paper of our collaboration with Dr Naira Havokimian Lab (UIUC), <strong>[L1 Adaptive Control of Constrained Systems Using Barrier States]</strong>(https://arc.aiaa.org/doi/pdf/10.2514/6.2023-1051), was presented in AIAA SCITECH.
+The first paper of our collaboration with Dr Naira Havokimian Lab (UIUC), [<strong>L1 Adaptive Control of Constrained Systems Using Barrier States</strong>](https://arc.aiaa.org/doi/pdf/10.2514/6.2023-1051), was presented in AIAA SCITECH.
