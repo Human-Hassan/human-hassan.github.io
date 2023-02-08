@@ -10,4 +10,9 @@ permalink: /Teaching/
 to just remove them from the navigation bar, 
 nav: false (or true if you want them to be in the nav bar)
 
-for blog, it is removed (the whole directory was deleted). To add, to put posts back, check the original al-folio 
+for blog, it is removed. To add, go to the config file, add blog_name and premalink:
+
+blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
+blog_description: a simple whitespace theme for academics
+permalink: /blog/:year/:title/
+
