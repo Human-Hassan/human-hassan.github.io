@@ -2,6 +2,8 @@ notes for me:
 
 to open the Projects page again, add
 permalink: /Projects/
+
+The projects pages have been removed. To put back, check the original al-folio 
 similarly, to open the Teaching page again, add
 permalink: /Teaching/
 
