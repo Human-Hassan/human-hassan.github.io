@@ -8,5 +8,6 @@ permalink: /Teaching/
 to just remove them from the navigation bar, 
 nav: false (or true if you want them to be in the nav bar)
 
-for blog, it is dis-enabled. To enable, go to blog dir and open the index.html and change
-enabled: false
+for blog, it is removed. To add, go to blog dir and open the index.html and change
+
+permalink: /page/:num/
