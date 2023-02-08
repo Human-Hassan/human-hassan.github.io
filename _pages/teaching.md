@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: 
+permalink: /Teaching/
 title: Teaching
 description: Materials for courses you taught. Replace this text with your description.
-nav: true
+nav: false
 display_categories: [teaching]
 horizontal: false
 ---
