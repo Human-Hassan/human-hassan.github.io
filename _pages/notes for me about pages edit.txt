@@ -10,6 +10,4 @@ permalink: /Teaching/
 to just remove them from the navigation bar, 
 nav: false (or true if you want them to be in the nav bar)
 
-for blog, it is removed. To add, go to blog dir and open the index.html and change
-
-permalink: /page/:num/
+for blog, it is removed (the whole directory was deleted). To add, to put posts back, check the original al-folio 
