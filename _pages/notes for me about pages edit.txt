@@ -1,0 +1,12 @@
+notes for me:
+
+to open the Projects page again, add
+permalink: /Projects/
+similarly, to open the Teaching page again, add
+permalink: /Teaching/
+
+to just remove them from the navigation bar, 
+nav: false (or true if you want them to be in the nav bar)
+
+for blog, it is dis-enabled. To enable, go to blog dir and open the index.html and change
+enabled: false
