@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Projects
-permalink: 
-description: Cool research projects in safe autonomy!  
+permalink: /Projects/
+description: Cool research projects in safe and optimal autonomy!  
 nav: false
 display_categories: [work, fun]
 horizontal: false
