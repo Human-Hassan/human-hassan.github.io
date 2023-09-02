@@ -19,7 +19,7 @@ Hello! I am Hassan, I develop control and optimization tools and algorithms for 
 
 I'm a Ph.D. student in the [ACDS Lab](https://sites.gatech.edu/acds/) at Georgia Tech :honeybee: advised by Dr. [Evangelos Theodorou](https://scholar.google.com/citations?hl=en&user=dG9MV7oAAAAJ) and Dr. [Nader Sadegh](https://scholar.google.com/citations?user=TS4freMAAAAJ&hl=en). 
 
-My research interests lie in the intersections of control theory, dynamic optimization and machine learning. Specifically, my research confronts the trade-off between safety restrictions and performance objectives of dynamical (unceratin) systems.
+My research interests lie in the intersections of control theory, dynamic optimization and machine learning. Specifically, my research confronts the trade-off between safety restrictions and performance objectives of dynamical (unceratin) systems. My recent interest explores Bayesian ML methods for learning and control of dynamical systems with safety and stability guarantees.
 
 I received my Master’s degree in ECE in December 2018 from Georgia Tech in optimal control (Thesis: <strong>"[Infinite Horizon Nonlinear Quadratic Cost Regulator](https://smartech.gatech.edu/handle/1853/60821)"</strong>).
 
