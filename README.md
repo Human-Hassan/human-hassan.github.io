@@ -1,1 +1,1 @@
-# Personal website (al-folio) - WIP
+# Personal website (al-folio)
