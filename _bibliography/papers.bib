@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 ---
 
@@ -54,6 +55,48 @@
   dimensions={true},
   google_scholar_id={qyhmnyLat1gC},
   selected={true}
+=======
+@article{oshin2023differentiable,
+abbr={Under Review},
+  title={Differentiable robust model predictive control},
+  author={Oshin, Alex and Almubarak, Hassan and Theodorou, Evangelos A},
+  journal={arXiv preprint arXiv:2308.08426},
+  year={2024},
+arxiv={2308.08426},
+abstract={Deterministic model predictive control (MPC), while powerful, is often insufficient for effectively controlling autonomous systems in the real-world. Factors such as environmental noise and model error can cause deviations from the expected nominal performance. Robust MPC algorithms aim to bridge this gap between deterministic and uncertain control. However, these methods are often excessively difficult to tune for robustness due to the nonlinear and non-intuitive effects that controller parameters have on performance. To address this challenge, we first present a unifying perspective on differentiable optimization for control using the implicit function theorem (IFT), from which existing state-of-the art methods can be derived. Drawing parallels with differential dynamic programming, the IFT enables the derivation of an efficient differentiable optimal control framework. The derived scheme is subsequently paired with a tube-based MPC architecture to facilitate the automatic and real-time tuning of robust controllers in the presence of large uncertainties and disturbances. The proposed algorithm is benchmarked on multiple nonlinear robotic systems, including two systems in the MuJoCo simulator environment to demonstrate its efficacy.}
+}
+
+@article{almubarak2023barrier,
+abbr={Under Review},
+  title={Barrier States Theory for Safety-Critical Multi-Objective Control},
+  author={Almubarak, Hassan and Sadegh, Nader and Theodorou, Evangelos A},
+  journal={arXiv preprint arXiv:2310.07022},
+  year={2023},
+arxiv={2310.07022},
+abstract={Multi-objective safety-critical control entails a diligent design to avoid possibly conflicting scenarios and ensure safety. This paper studies the concept of barrier states (BaS) for safe multi-objective controls in which the safety condition is manifested as a dynamical sub-system to be controlled along other states of the system. This allows us to introduce the idea of safety embedded systems. The proposition is that the control problem is now transformed to designing a control law for the new, unconstrained, system in which the barrier state is driven to stay bounded while achieving other performance objectives. In the stabilization case, for example, we show that designing a stabilizing controller for the safety embedded system implies guaranteed safe stabilization for the original safety-critical system. Consequently, a conflict between performance objectives and safety constraints is substantially avoided. This allows us to embrace various legacy control methods from the literature to acquire safe control laws. Moreover, we discuss how the proposed technique can be espoused for enforcing input constraints. Additionally, dealing with the constraint through a state allows us to extend various existing control approaches to the safety case. We consider the case of bounded input disturbance and adopt the notion of input-to-state stability (ISS) for barrier states to obtain the notion of input-to-state safety (ISSf) to analyze safe robustness of systems. Subsequently, we derive the notion of input-to-state safe stability (IS3) and discuss the synthesis of robust safely stabilizing feedback controls through designing robust stabilizing controllers for the safety embedded systems. The proposed techniques and concepts are used in various examples including the design of proportional-integral-derivative-barrier (PIDB) control for adaptive cruise control.}
+}
+
+@article{gandhi2023safe,
+abbr={Under Review},
+  title={Safe Importance Sampling in Model Predictive Path Integral Control},
+  author={Gandhi, Manan and Almubarak, Hassan and Theodorou, Evangelos},
+  journal={arXiv preprint arXiv:2303.03441},
+  year={2023},
+arxiv={2303.03441},
+abstract={We introduce the notion of importance sampling under embedded barrier state control, titled Safety Controlled Model Predictive Path Integral Control (SC-MPPI). For robotic systems operating in an environment with multiple constraints, hard constraints are often encoded utilizing penalty functions when performing optimization. Alternative schemes utilizing optimization-based techniques, such as Control Barrier Functions, can be used as a safety filter to ensure the system does not violate the given hard constraints. In contrast, this work leverages the principle of a safety filter but applies it during forward sampling for Model Predictive Path Integral Control. The resulting set of forward samples can remain safe within the domain of the safety controller, increasing sample efficiency and allowing for improved exploration of the state space. We derive this controller through information theoretic principles analogous to Information Theoretic MPPI. We empirically demonstrate both superior sample efficiency, exploration, and system performance of SC-MPPI when compared to Model-Predictive Path Integral Control (MPPI) and Differential Dynamic Programming (DDP) optimizing the barrier state.}
+}
+
+@inproceedings{kuperman2023improved,
+abbr={ICAR},
+  title={Improved Exploration for Safety-Embedded Differential Dynamic Programming Using Tolerant Barrier States},
+  author={Kuperman, Joshua E and Almubarak, Hassan and Saravanos, Augustinos D and Theodorou, Evangelos A},
+  booktitle={2023 21st International Conference on Advanced Robotics (ICAR)},
+  pages={183--190},
+  year={2023},
+  organization={IEEE},
+arxiv={2303.03360},
+abstract={In this paper, we introduce Tolerant Discrete Barrier States (T-DBaS), a novel safety-embedding technique for trajectory optimization with enhanced exploratory capabilities. The proposed approach generalizes the standard discrete barrier state (DBaS) method by accommodating temporary constraint violation during the optimization process while still approximating its safety guarantees. Consequently, the proposed approach eliminates the DBaS's safe nominal trajectories assumption, while enhancing its exploration effectiveness for escaping local minima. Towards applying T-DBaS to safety-critical autonomous robotics, we combine it with Differential Dynamic Programming (DDP), leading to the proposed safe trajectory optimization method T-DBaS-DDP, which inherits the convergence and scalability properties of the solver. The effectiveness of the T-DBaS algorithm is verified on differential drive robot and quadrotor simulations. In addition, we compare against the classical DBaS-DDP as well as Augmented-Lagrangian DDP (AL-DDP) in extensive numerical comparisons that demonstrate the proposed method's competitive advantages. Finally, the applicability of the proposed approach is verified through hardware experiments on the Georgia Tech Robotarium platform.}
+>>>>>>> 7baf486 (Update papers.bib)
 }
 
 @article{einstein1905molekularkinetischen,
